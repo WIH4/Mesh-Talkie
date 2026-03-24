@@ -1,0 +1,30 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# EasyEDA PRO / KiCad
+*.bak
+*.kicad_prl
+fp-info-cache
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Logs
+*.log
